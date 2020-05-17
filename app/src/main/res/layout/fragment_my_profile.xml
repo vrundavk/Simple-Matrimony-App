@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileFragment"
+    android:background="@drawable/mmm">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+         />
+    <TextView
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_margin="15dp"
+        android:paddingRight="10dp"
+        android:text="Update"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+
+        android:id="@+id/settings_profile_image"/>
+<!--android:background="@drawable/tony"-->
+
+
+
+
+    <EditText
+        android:id="@+id/settings_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Registered Phone Number"
+
+        android:layout_margin="15dp"
+        android:layout_below="@id/settings_profile_image"/>
+
+    <EditText
+        android:id="@+id/settings_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Full Name...."
+
+        android:layout_margin="15dp"
+        android:layout_below="@id/settings_phone_number" />
+    <EditText
+        android:id="@+id/settings_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Date of Birth"
+
+        android:layout_margin="15dp"
+        android:layout_below="@id/settings_full_name"/>
+
+
+    <EditText
+        android:id="@+id/settings_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Address...."
+
+        android:layout_margin="15dp"
+        android:layout_below="@id/settings_dob"/>
+
+    <EditText
+        android:id="@+id/settings_occupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Occupation"
+
+        android:layout_margin="15dp"
+        android:layout_below="@id/settings_address"/>
+
+    <EditText
+        android:id="@+id/settings_qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Qualification"
+
+        android:layout_margin="15dp"
+        android:layout_below="@id/settings_occupation"/>
+
+    <EditText
+        android:id="@+id/settings_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Bio"
+
+        android:layout_margin="15dp"
+        android:layout_below="@id/settings_qualification"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deleted your details?Add them by seleting your gender!"
+        android:layout_below="@+id/settings_bio"
+        android:textColor="#FF0000"
+        android:textSize="15sp"
+        android:layout_margin="12dp"/>
+    <TextView
+        android:id="@+id/select_male_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textSize="15sp"
+        android:textColor="#FF0000"
+        android:layout_below="@+id/question"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/select_female_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:textSize="15sp"
+        android:textColor="#FF0000"
+       android:layout_toRightOf="@+id/select_male_option"
+        android:layout_below="@+id/question"
+        android:layout_margin="15dp"/>
+
+
+</RelativeLayout>
+</ScrollView>

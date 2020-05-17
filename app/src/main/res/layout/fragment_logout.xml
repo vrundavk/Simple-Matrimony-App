@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogoutFragment"
+    android:background="#000000">
+
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sure_logout"
+    android:text="Are you sure you want to Logout?"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginTop="330dp"
+    android:textSize="20dp"
+        android:textColor="#ffffff"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+
+    />
+
+    <Button
+        android:id="@+id/cancel_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@id/sure_logout"
+        android:layout_marginLeft="90dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:background="#FF0000"/>
+
+    <Button
+        android:id="@+id/logout_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:layout_below="@id/sure_logout"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="#FF0000"/>
+
+
+</RelativeLayout>

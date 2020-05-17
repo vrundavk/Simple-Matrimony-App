@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@drawable/details_bg">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/z"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:background="@drawable/z"
+
+        />
+
+    <ImageView
+android:id="@+id/zzz"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:background="@drawable/zzz"
+        android:layout_below="@+id/z"
+        />
+
+
+    <ImageView
+        android:id="@+id/zzzz"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:background="@drawable/zzzz"
+        android:layout_below="@+id/zzz"
+        />
+    <ImageView
+        android:id="@+id/zzzzz"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:background="@drawable/zzzzz"
+        android:layout_below="@+id/zzzz"
+        />
+
+    <ImageView
+        android:id="@+id/zzzzzz"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:background="@drawable/zzzzzz"
+        android:layout_below="@+id/zzzzz"
+        />
+    <ImageView
+        android:id="@+id/zz"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:background="@drawable/zz"
+        android:layout_below="@+id/zzzzzz"
+        />
+
+</RelativeLayout>
+
+
+</ScrollView>
